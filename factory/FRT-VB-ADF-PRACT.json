@@ -1,0 +1,9 @@
+{
+	"name": "FRT-VB-ADF-PRACT",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9875c954-e811-46ec-a529-1f62be9474cd",
+		"tenantId": "8d31e36e-7e9b-4e68-8cac-46f2c211814d"
+	}
+}

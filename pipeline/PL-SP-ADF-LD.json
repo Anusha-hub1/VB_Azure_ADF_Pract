@@ -1,0 +1,44 @@
+{
+	"name": "PL-SP-ADF-LD",
+	"properties": {
+		"activities": [
+			{
+				"name": "Stored procedure-ADF",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[dbo].[InsertCustomers]",
+					"storedProcedureParameters": {
+						"CustomerID": {
+							"value": "1",
+							"type": "Int32"
+						},
+						"FirstName": {
+							"value": "John",
+							"type": "String"
+						},
+						"LastName": {
+							"value": "oak",
+							"type": "String"
+						}
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "LinkedServerSqlServerSP2",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2026-03-11T05:34:05Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

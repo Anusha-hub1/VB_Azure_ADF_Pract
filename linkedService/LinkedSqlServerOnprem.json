@@ -1,0 +1,21 @@
+{
+	"name": "LinkedSqlServerOnprem",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-CU76O3C\\SQLEXPRESS",
+			"database": "EMPLOYEE",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "Windows",
+			"userName": "DESKTOP-CU76O3C\\user",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmYzlhYWY5Ni1kNTM2LTQ0OGQtYmMzYS02Y2QwNzRhZDAzZjEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "Self-Hosted-Integration-Runtime2",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
