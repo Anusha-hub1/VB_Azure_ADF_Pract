@@ -1,0 +1,9 @@
+{
+	"name": "VB-MINI-PROJ-ADF",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5750c840-edc9-48a5-bc85-50071a4a610a",
+		"tenantId": "8d31e36e-7e9b-4e68-8cac-46f2c211814d"
+	}
+}
