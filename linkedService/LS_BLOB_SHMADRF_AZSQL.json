@@ -1,0 +1,12 @@
+{
+	"name": "LS_BLOB_SHMADRF_AZSQL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=blobfrtschemadrift;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDg4RjNCRjVFLTc0QzEtNERGMi1CMzc2LTgyNTU3MzZEMDk4NF9hYzcyYTNjMC1iN2VlLTQ2Y2ItYTM4NC1lNTEyNjYxMmZlYzIiDQp9"
+		}
+	}
+}
